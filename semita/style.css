@@ -1,0 +1,47 @@
+/* Reset margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para el body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Estilo para el título */
+#titulo {
+  background-image: linear-gradient(to left, #422754, #441e61);
+  color: #fff;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* Estilo para el cuadro */
+#cuadro {
+  width: 400px;
+  margin: 20px auto; /* Centrar horizontalmente con margen superior e inferior */
+  padding: 10px;
+  border: 1px solid white;
+  text-align: center; /* Centrar textos dentro del cuadro */
+}
+
+/* Estilo para el footer */
+footer {
+  padding-top: 10px;
+  border-top: 1px solid white;
+  text-align: center;
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* altura completa de la ventana */
+}
+
+.video-container video {
+  max-width: 100%;
+  height: auto;
+}
