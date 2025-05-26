@@ -8,11 +8,12 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
+  background-color: #0e068a9d; /* Color de fondo claro */
 }
 
 /* Estilo para el título */
 #titulo {
-  background-image: linear-gradient(to left, #422754, #441e61);
+  background-image: linear-gradient(to left, #830606, #14067e);
   color: #fff;
   height: 50px;
   text-align: center;
@@ -44,4 +45,25 @@ footer {
 .video-container video {
   max-width: 100%;
   height: auto;
+}
+
+.images-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente si hay altura fija */
+  gap: 20px; /* Espacio entre las imágenes */
+  padding: 20px; /* Espacio interno */
+}
+
+.images-container img {
+  max-width: 200px; /* Ajusta el tamaño máximo de las imágenes */
+  height: auto;
+  border-radius: 10px; /* Esquinas redondeadas (opcional) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave (opcional) */
+}
+
+.fan-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente si hay altura fija */
 }
